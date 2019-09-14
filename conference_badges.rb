@@ -18,11 +18,9 @@ def assign_rooms(speakers)
   
   room_array = []
   speakers.each_with_index do | name, index |
-    room_message = "Hello, #{name}! You'll be assigned to room #{room[index]}!"
-    room_array << room_message
+    "Hello, #{name}! You'll be assigned to room #{index}!"
   end
-  
-  return room_array
+
 end
   
   
