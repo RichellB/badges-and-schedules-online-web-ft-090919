@@ -21,6 +21,15 @@ def assign_rooms(speakers)
     "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
 
+def printer
+  badge_array = batch_badge_creator(array)
+  p badge_array
+  
+  room_array = assign_rooms(speakers)
+  room_array.each do |assign|
+    p assign 
+  end
+  
 end
   
   
