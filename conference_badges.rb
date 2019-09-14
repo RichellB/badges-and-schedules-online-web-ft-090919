@@ -23,7 +23,7 @@ def assign_rooms(speakers)
     room_array << room_message
   end
   
-  room_array
+  return room_array
 end
   
   
