@@ -8,10 +8,10 @@ def batch_badge_creator(array)
   badge_message = ""
   
   array.each do | name |
-    badge_message = "Hello, my name is #{name}"
+    badge_message = "Hello, my name is #{name}."
     new_array << badge_message
   end
-  new_array
+  return new_array
 end
 
 def assign_rooms(speakers)
