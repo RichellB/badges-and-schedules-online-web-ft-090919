@@ -13,3 +13,21 @@ def batch_badge_creator(array)
   end
   new_array
 end
+
+def assign_rooms(speakers)
+  room = []
+  room.length = 7
+  room_array = []
+  speakers.each do | name |
+    room_array << room[name]
+  end
+  
+  room_array
+end
+  
+  
+  
+    
+    
+    
+    
